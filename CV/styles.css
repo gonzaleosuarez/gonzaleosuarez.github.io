@@ -1,0 +1,133 @@
+body{
+    background-color: lightblue;
+    font-family: 'Oswald', sans-serif;
+}
+
+header, section {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: lightgreen;
+    padding-top: 16px;
+    padding-left: 20px;  
+    font-family: 'Oswald', sans-serif;
+    margin-top: -10px;
+}
+
+article {
+    width: 60%;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-right: 16px;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+progress {
+    margin-left: 8px;
+}
+    
+
+.flex {
+    display: flex;
+}
+
+#mas {
+    display: none;
+}
+
+body{
+    background: url(imágenes/frontend.png)no-repeat;
+    background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 100px;
+}
+
+header{
+    background: url(imágenes/js.jpg);
+    height: 550px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+header i {
+    color: white;
+}
+
+#ver {
+    display: none;
+}
+
+#sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background: #151719;
+    left: -40px;
+    transition: all 500ms linear;
+}
+
+#sidebar ul li {
+    color: rgba(230,230,230, .9);
+    text-align: center;
+    padding: 15px 10px;
+    list-style: none;
+    border-bottom: 1px solid rgba(100,100,100, .3);
+    text-align: initial;
+}
+
+#sidebar h1 {
+    color: rgb(230,230,230, .9);
+    text-align: center;
+}
+
+
+.logo {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.img {
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+
+}
+
+.contenedor {
+    height: 620px;
+    width: 250px;
+    border: 1px solid grey;
+    overflow: auto;
+}
+
+#masInfo {
+    display: none;
+}
+
+#habilidades {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+    
+

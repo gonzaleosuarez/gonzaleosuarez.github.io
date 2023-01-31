@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <script src="javascript.js"></script>
+    <script src="https://kit.fontawesome.com/1c7444eaf9.js" crossorigin="anonymous"></script>
+<body>
+    
+    <div class="contenedor" id="sidebar">
+        <ul>
+            <li>
+                <img src="imágenes/logo.jpg" alt="logotipo" class="logo">
+            </li>
+            <h1>Información personal</h1>
+            <i class="fa-regular fa-user"></i>
+            <button type="button" onclick="verMasinfo();">Ver Información personal</button>
+            <div id="masInfo">
+            <li>Télefono: 3435064520</li>
+            <li>Ciudad: Paraná, Entre Rios</li>
+            <li>País: Argentina</li>
+            <li>Dirección: Coronel Caminos 1072</li>
+            <li>Código postal: 3100</li>
+            <li>Fecha de nacimiento: 27/07/1995</li>
+            <i class="fa-solid fa-eye-slash"></i>
+            <a href="javascript:void(0);" onclick="ocultarInfo();">Ocultar Información</a>
+            </div>
+            <div id="verHabilidades">
+            <h1>Habilidades</h1>
+            <i class="fa-brands fa-js"></i>
+            <button type="button" onclick="verHabilidades();">Ver Habilidades</button>
+            <div id="habilidades">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Java</li>
+            <li>Ruby</li>
+            <i class="fa-solid fa-eye-slash"></i>
+            <a href="javascript:void(0);" onclick="ocultarHabilidades();">Ocultar habilidades</a>
+            </div>
+        </ul>
+    </div>
+    
+   
+
+    <header class="flex">
+    <img class="img" src="/imágenes/yo.jpg" alt="">
+
+    
+        <div>
+            <h1 style="color: white;">Gonzalo Leonel Suárez</h1>
+            <h2 style="color: white;">Programador Front End</h2>
+            <h3 style="color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id nibh sed ante iaculis condimentum sed sed ipsum. Vestibulum semper aliquam orci, et efficitur metus. Quisque tristique metus at vehicula bibendum. Mauris a dolor sed urna euismod ornare. Donec id posuere nunc. Fusce maximus, neque et imperdiet efficitur, mauris arcu faucibus elit, et maximus massa ante lacinia risus. Cras tristique vestibulum augue pulvinar rhoncus. Praesent non scelerisque enim, ut auctor lectus. Suspendisse mattis diam vel iaculis elementum. Sed auctor id nisi lacinia accumsan.</h3>
+            <h3 style="color: white;">Contacto:</h3>
+            <i class="fa-solid fa-address-book"></i>
+            <button type="button" onclick="verMas();">Ver contactos</button>
+        <div id="mas">
+            <p style="color: white;">Instagram: <a href="https://www.instagram.com/gonzaleosuarez/">@gonzaleosuarez</a></p>
+            <p style="color: white;">Email: gonzaleosuarez@gmail.com</p>
+            <i class="fa-solid fa-eye-slash"></i>
+            <a href="javascript:void(0);" onclick="ocultar();">Ocultar</a>
+        </div>
+        
+       
+        </div>
+    </header>
+    <section>
+        <article>
+            <h2>Experiencia</h2>
+            <ul>
+                <li>
+                    <i class="fa-solid fa-circle-info"></i>
+                    
+                    <button type="button" onclick="masInfo();">Ver Información</button>
+        <div id="ver">
+                    <p>Quisque aliquam mi eu turpis dignissim scelerisque. Vestibulum eget odio eget nisi mollis fermentum. Etiam ac orci dictum, ultricies nulla vel, dignissim lorem. Aenean id felis et purus pellentesque accumsan pretium ac erat. Vestibulum rhoncus in velit in scelerisque. Integer nulla mauris, porta in ligula vel, scelerisque dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                        <b>Desde:</b> 
+                        <time datetime="2021-09-25">Sep 2021</time> - 
+                        <b>Hasta: Actual</b>
+                
+       
+                    <p>Nam maximus erat eget rutrum ultricies. Sed eget sollicitudin sem, at eleifend ligula. In nec nunc pellentesque, fringilla augue auctor, laoreet ipsum. Cras nec aliquet leo. Morbi aliquet lobortis turpis a iaculis. Duis aliquam purus libero, in tempus augue semper sed. Maecenas tristique in elit vel varius. Fusce sit amet maximus ipsum, eget varius mauris.</p>
+                        <b>Desde:</b> 
+                        <time datetime="2022-12-30">Dic 2022</time> - 
+                        <b>Hasta: Actual</b>
+                        <i class="fa-solid fa-eye-slash"></i>
+                    <a href="javascript:void(0);" onclick="menos();">Ocultar info</a>
+                    </li>
+        </div>
+                    
+                        
+                </li>
+            </ul>
+            <hr>
+        </article>
+    
+        <aside>
+            <h2>Estudios</h2>
+            <ul>
+                <li>
+                    <p>In non enim neque. Nullam laoreet dui eget libero faucibus lacinia vitae non quam. Maecenas tempus egestas mollis. Fusce tincidunt nisl tellus. Cras commodo congue faucibus. Morbi lacinia pulvinar molestie. Cras a lacus eros.</p>
+                      
+                    
+                </li>
+
+                <li>
+                    <p>Etiam eleifend sapien non mollis gravida. Proin sed volutpat mauris. Suspendisse sagittis diam et lorem finibus venenatis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In sollicitudin, massa at ultricies varius, tellus felis feugiat odio, eget accumsan odio est non dolor. Proin pharetra rhoncus urna. Nullam ut dictum mauris. Ut dui eros, fringilla nec dui ut, congue placerat nisl. Maecenas vestibulum arcu sed dui tincidunt lobortis. Vestibulum et orci sed lorem luctus faucibus.</p>
+                  
+                </li>
+
+                <li>
+                    <p>Praesent bibendum suscipit elementum. In et velit non dolor rhoncus sagittis nec eget ex. Fusce cursus tortor enim, a facilisis metus fringilla eu. Nam finibus fringilla felis, vitae scelerisque nibh. Nullam euismod felis tellus, ac pretium sem ultrices at. Proin suscipit suscipit ipsum vitae luctus. Vestibulum nec diam quis eros efficitur feugiat vel in neque. Praesent lobortis quis dui ac consectetur.</p>
+                </li>
+            </ul>
+            <hr>
+            <h2>Referencias</h2>
+            <ul>
+            <li>
+                <p>Aenean non lobortis sem. Ut et turpis nec lectus scelerisque maximus. Sed fringilla pretium dolor et rhoncus. Vestibulum orci nunc, imperdiet volutpat convallis vel, maximus sed est. Cras egestas fringilla egestas. Nam a lacus lectus. Morbi ut erat vitae purus cursus venenatis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </li>
+            </ul>
+        </aside>
+    </section>
+</body>
+</html>
